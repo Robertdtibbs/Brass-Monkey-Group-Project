@@ -46,55 +46,56 @@
                 <div class="col-xs-1">
                     <label for="state"></label>
                     <select class="form-control" id="state">
-                        <option>AL</option>
-                        <option>AK</option>
-                        <option>AZ</option>
-                        <option>AR</option>
-                        <option>CA</option>
-                        <option>CO</option>
-                        <option>CT</option>
-                        <option>DE</option>
-                        <option>FL</option>
-                        <option>GA</option>
-                        <option>HI</option>
-                        <option>ID</option>
-                        <option>IL</option>
-                        <option>IN</option>
-                        <option>IA</option>
-                        <option>KS</option>
-                        <option>KY</option>
-                        <option>LA</option>
-                        <option>ME</option>
-                        <option>MD</option>
-                        <option>MA</option>
-                        <option>MI</option>
-                        <option>MN</option>
-                        <option>MS</option>
-                        <option>MO</option>
-                        <option>MT</option>
-                        <option>NE</option>
-                        <option>NV</option>
-                        <option>NH</option>
-                        <option>NJ</option>
-                        <option>NM</option>
-                        <option>NY</option>
-                        <option>NC</option>
-                        <option>ND</option>
-                        <option>OH</option>
-                        <option>OK</option>
-                        <option>OR</option>
-                        <option>PA</option>
-                        <option>RI</option>
-                        <option>SC</option>
-                        <option>SD</option>
-                        <option>TN</option>
-                        <option>TX</option>
-                        <option>UT</option>
-                        <option>VA</option>
-                        <option>WA</option>
-                        <option>WV</option>
-                        <option>WI</option>
-                        <option>WY</option>
+                        <option data-full="Alabama">AL</option>
+                        <option data-full="Alaska *">AK</option>
+                        <option data-full="Arizona">AZ</option>
+                        <option data-full="Arkansas">AR</option>
+                        <option data-full="California">CA</option>
+                        <option data-full="Colorado">CO</option>
+                        <option data-full="Connecticut">CT</option>
+                        <option data-full="Delaware">DE</option>
+                        <option data-full="Florida">FL</option>
+                        <option data-full="Georgia">GA</option>
+                        <option data-full="Hawaii *">HI</option>
+                        <option data-full="Idaho">ID</option>
+                        <option data-full="Illinois">IL</option>
+                        <option data-full="Indiana">IN</option>
+                        <option data-full="Iowa">IA</option>
+                        <option data-full="Kansas">KS</option>
+                        <option data-full="Kentucky">KY</option>
+                        <option data-full="Louisiana">LA</option>
+                        <option data-full="Maine">ME</option>
+                        <option data-full="Maryland">MD</option>
+                        <option data-full="Massachusetts">MA</option>
+                        <option data-full="Michigan">MI</option>
+                        <option data-full="Minnesota">MN</option>
+                        <option data-full="Mississippi">MS</option>
+                        <option data-full="Missouri">MO</option>
+                        <option data-full="Montana">MT</option>
+                        <option data-full="Nebraska">NE</option>
+                        <option data-full="Nevada">NV</option>
+                        <option data-full="New Hampshire">NH</option>
+                        <option data-full="New Jersey">NJ</option>
+                        <option data-full="New Mexico">NM</option>
+                        <option data-full="New York">NY</option>
+                        <option data-full="North Carolina">NC</option>
+                        <option data-full="North Dakota">ND</option>
+                        <option data-full="Ohio">OH</option>
+                        <option data-full="Oklahoma">OK</option>
+                        <option data-full="Oregon">OR</option>
+                        <option data-full="Pennsylvania">PA</option>
+                        <option data-full="Rhode Island">RI</option>
+                        <option data-full="South Carolina">SC</option>
+                        <option data-full="South Dakota">SD</option>
+                        <option data-full="Tennessee">TN</option>
+                        <option data-full="Texas">TX</option>
+                        <option data-full="Utah">UT</option>
+                        <option data-full="Vermont">VT</option>
+                        <option data-full="Virginia">VA</option>
+                        <option data-full="Washington">WA</option>
+                        <option data-full="West Virginia">WV</option>
+                        <option data-full="Wisconsin">WI</option>
+                        <option data-full="Wyoming">WY</option>
                     </select>
                 </div>
             </div>
@@ -137,9 +138,6 @@
                         <h5 class="card-title">Economic Data</h5>
                         <canvas id="income-chart" width="30" height="40" aria-label="Average Income"
                             role="img"></canvas>
-                        <p id="card-text">Data Here: </p>
-                        <p id="usa-data">USA Avg. Income: <span id="us-avg"></span> </p>
-                        <p id="state-data">State Avg. Income: <span id="state-avg"></span></p>
                     </div>
                 </div>
             </div>
@@ -207,11 +205,9 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Economic Data</h5>
-                        <canvas id="income-chart-compare" width="30" height="40" aria-label="Average Income"
+                        <canvas id="income-chart-two" width="30" height="40" aria-label="Average Income"
                             role="img"></canvas>
-                        <p id="card-text">Data Here: </p>
-                        <p id="usa-data">USA Avg. Income: <span id="us-avg2"></span></p>
-                        <p id="state-data">State Avg. Income: <span id="state-avg2"></span></p>
+                    
                     </div>
                 </div>
             </div>
@@ -251,7 +247,7 @@
             </div>
            
             <script src="assets/javascript/housing.js"></script>
-            <script src="assets/javascript/bea.js"></script>
+            <script src="assets/javascript/test.js"></script>
             <script src="assets/javascript/meetup.js"></script>
             <script src="assets/javascript/weather-data.js"></script>
             <!-- <script src="assets/javascript/bea.js"></script> -->
