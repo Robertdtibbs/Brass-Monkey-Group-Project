@@ -117,3 +117,13 @@ body{
 div{
     border-radius: 32px;
 }
+
+#weather-table{
+    height: 200px;
+    width: auto;
+}
+
+#weather-table2{
+    max-width: 300px;
+    width: 100%;
+}
