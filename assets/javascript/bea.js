@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    var apiKey = "2AC3F36B-D425-4022-831C-437BF2C53C2Fa"
+    var apiKey = "2AC3F36B-D425-4022-831C-437BF2C53C2F"
 
 
     var proxyURL = "https://cors-anywhere.herokuapp.com/";
